@@ -1,0 +1,4285 @@
+{
+    "champions": [
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 266
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 103
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 84
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 12
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 32
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 34
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 1
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 22
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 136
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 268
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 432
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 53
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 63
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 201
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": true,
+            "id": 51
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 164
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 69
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 31
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 42
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 122
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 131
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 119
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 36
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 245
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 60
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": true,
+            "id": 28
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 81
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 9
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 114
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 105
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": true,
+            "id": 3
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 41
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 86
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 150
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 79
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 104
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 120
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 74
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": true,
+            "id": 420
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 39
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 427
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 40
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 59
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 24
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 126
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": true,
+            "id": 202
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 222
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 145
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 429
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 43
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 30
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": true,
+            "id": 38
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 55
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 10
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 141
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 85
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 121
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 203
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 240
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 96
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 7
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 64
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 89
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 127
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 236
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": true,
+            "id": 117
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 99
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 54
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 90
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 57
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 11
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 21
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 62
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 82
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 25
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": true,
+            "id": 267
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 75
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 111
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 76
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 56
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": true,
+            "id": 20
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 2
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 61
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 516
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 80
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 78
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 555
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 133
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 497
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 33
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 421
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 58
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 107
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 92
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 68
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 13
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 113
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 35
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 98
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 102
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 27
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 14
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 15
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 72
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 37
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 16
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 50
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 134
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 223
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 163
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 91
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": true,
+            "id": 44
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 17
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 412
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 18
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 48
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 23
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": true,
+            "id": 4
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 29
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 77
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 6
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 110
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 67
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 45
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 161
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 254
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": true,
+            "id": 112
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 8
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 106
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 19
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 498
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": true,
+            "id": 101
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": true,
+            "id": 5
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 157
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 83
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 154
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 238
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 115
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 26
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": false,
+            "botMmEnabled": false,
+            "active": true,
+            "freeToPlay": false,
+            "id": 142
+        },
+        {
+            "rankedPlayEnabled": true,
+            "botEnabled": true,
+            "botMmEnabled": true,
+            "active": true,
+            "freeToPlay": false,
+            "id": 143
+        }
+    ],
+    "champ-static-data": [
+        {
+            "image": {
+                "full": "Annie.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 288
+            },
+            "title": "La Hija de la Oscuridad",
+            "id": 1,
+            "key": "Annie",
+            "name": "Annie"
+        },
+        {
+            "image": {
+                "full": "Olaf.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 48
+            },
+            "title": "El Berserker",
+            "id": 2,
+            "key": "Olaf",
+            "name": "Olaf"
+        },
+        {
+            "image": {
+                "full": "Galio.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 0
+            },
+            "title": "el Coloso",
+            "id": 3,
+            "key": "Galio",
+            "name": "Galio"
+        },
+        {
+            "image": {
+                "full": "TwistedFate.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 336
+            },
+            "title": "El Maestro de las Cartas",
+            "id": 4,
+            "key": "TwistedFate",
+            "name": "Twisted Fate"
+        },
+        {
+            "image": {
+                "full": "XinZhao.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 96
+            },
+            "title": "El Senescal de Demacia",
+            "id": 5,
+            "key": "XinZhao",
+            "name": "Xin Zhao"
+        },
+        {
+            "image": {
+                "full": "Urgot.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 0
+            },
+            "title": "la Pesadilla Mecánica",
+            "id": 6,
+            "key": "Urgot",
+            "name": "Urgot"
+        },
+        {
+            "image": {
+                "full": "Leblanc.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 0
+            },
+            "title": "La Embaucadora",
+            "id": 7,
+            "key": "Leblanc",
+            "name": "LeBlanc"
+        },
+        {
+            "image": {
+                "full": "Vladimir.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 336
+            },
+            "title": "El Segador Carmesí",
+            "id": 8,
+            "key": "Vladimir",
+            "name": "Vladimir"
+        },
+        {
+            "image": {
+                "full": "Fiddlesticks.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 336
+            },
+            "title": "El Mensajero de la Muerte",
+            "id": 9,
+            "key": "Fiddlesticks",
+            "name": "Fiddlesticks"
+        },
+        {
+            "image": {
+                "full": "Kayle.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 144
+            },
+            "title": "La Justiciera",
+            "id": 10,
+            "key": "Kayle",
+            "name": "Kayle"
+        },
+        {
+            "image": {
+                "full": "MasterYi.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 0
+            },
+            "title": "El Espadachín Wuju",
+            "id": 11,
+            "key": "MasterYi",
+            "name": "Maestro Yi"
+        },
+        {
+            "image": {
+                "full": "Alistar.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 144
+            },
+            "title": "El Minotauro",
+            "id": 12,
+            "key": "Alistar",
+            "name": "Alistar"
+        },
+        {
+            "image": {
+                "full": "Ryze.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 240
+            },
+            "title": "El Hechicero Rúnico",
+            "id": 13,
+            "key": "Ryze",
+            "name": "Ryze"
+        },
+        {
+            "image": {
+                "full": "Sion.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 48
+            },
+            "title": "El Coloso no Muerto",
+            "id": 14,
+            "key": "Sion",
+            "name": "Sion"
+        },
+        {
+            "image": {
+                "full": "Sivir.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 96
+            },
+            "title": "La Señora de la Batalla",
+            "id": 15,
+            "key": "Sivir",
+            "name": "Sivir"
+        },
+        {
+            "image": {
+                "full": "Soraka.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 240
+            },
+            "title": "La Hija de las Estrellas",
+            "id": 16,
+            "key": "Soraka",
+            "name": "Soraka"
+        },
+        {
+            "image": {
+                "full": "Teemo.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 96
+            },
+            "title": "El Explorador Veloz",
+            "id": 17,
+            "key": "Teemo",
+            "name": "Teemo"
+        },
+        {
+            "image": {
+                "full": "Tristana.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 192
+            },
+            "title": "La Artillera Yordle",
+            "id": 18,
+            "key": "Tristana",
+            "name": "Tristana"
+        },
+        {
+            "image": {
+                "full": "Warwick.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 432
+            },
+            "title": "la Ira Descontrolada de Zaun",
+            "id": 19,
+            "key": "Warwick",
+            "name": "Warwick"
+        },
+        {
+            "image": {
+                "full": "Nunu.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 0
+            },
+            "title": "El Jinete de Yetis",
+            "id": 20,
+            "key": "Nunu",
+            "name": "Nunu"
+        },
+        {
+            "image": {
+                "full": "MissFortune.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 48
+            },
+            "title": "La Cazarrecompensas",
+            "id": 21,
+            "key": "MissFortune",
+            "name": "Miss Fortune"
+        },
+        {
+            "image": {
+                "full": "Ashe.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 336
+            },
+            "title": "La Arquera de Hielo",
+            "id": 22,
+            "key": "Ashe",
+            "name": "Ashe"
+        },
+        {
+            "image": {
+                "full": "Tryndamere.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 288
+            },
+            "title": "El Rey Bárbaro",
+            "id": 23,
+            "key": "Tryndamere",
+            "name": "Tryndamere"
+        },
+        {
+            "image": {
+                "full": "Jax.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 144
+            },
+            "title": "El Maestro de Armas",
+            "id": 24,
+            "key": "Jax",
+            "name": "Jax"
+        },
+        {
+            "image": {
+                "full": "Morgana.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 192
+            },
+            "title": "El Ángel Caído",
+            "id": 25,
+            "key": "Morgana",
+            "name": "Morgana"
+        },
+         {
+            "image": {
+                "full": "Zilean.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 384
+            },
+            "title": "El Guardián del Tiempo",
+            "id": 26,
+            "key": "Zilean",
+            "name": "Zilean"
+        },
+        {
+            "image": {
+                "full": "Singed.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 0
+            },
+            "title": "El Químico Loco",
+            "id": 27,
+            "key": "Singed",
+            "name": "Singed"
+        },
+        {
+            "image": {
+                "full": "Evelynn.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 240
+            },
+            "title": "El Abrazo Agónico",
+            "id": 28,
+            "key": "Evelynn",
+            "name": "Evelynn"
+        },
+        {
+            "image": {
+                "full": "Twitch.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 384
+            },
+            "title": "La Rata Apestada",
+            "id": 29,
+            "key": "Twitch",
+            "name": "Twitch"
+        },
+        {
+            "image": {
+                "full": "Karthus.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 0
+            },
+            "title": "La Voz de la Muerte",
+            "id": 30,
+            "key": "Karthus",
+            "name": "Karthus"
+        },
+        {
+            "image": {
+                "full": "Chogath.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 336
+            },
+            "title": "El Terror del Vacío",
+            "id": 31,
+            "key": "Chogath",
+            "name": "Cho'Gath"
+        },
+        {
+            "image": {
+                "full": "Amumu.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 192
+            },
+            "title": "La Momia Triste",
+            "id": 32,
+            "key": "Amumu",
+            "name": "Amumu"
+        },
+         {
+            "image": {
+                "full": "Rammus.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 432
+            },
+            "title": "El Armadurillo",
+            "id": 33,
+            "key": "Rammus",
+            "name": "Rammus"
+        },
+        {
+            "image": {
+                "full": "Anivia.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 240
+            },
+            "title": "La Criofénix",
+            "id": 34,
+            "key": "Anivia",
+            "name": "Anivia"
+        },
+        {
+            "image": {
+                "full": "Shaco.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 336
+            },
+            "title": "El Bufón Siniestro",
+            "id": 35,
+            "key": "Shaco",
+            "name": "Shaco"
+        },
+        {
+            "image": {
+                "full": "DrMundo.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 96
+            },
+            "title": "El Loco de Zaun",
+            "id": 36,
+            "key": "DrMundo",
+            "name": "Dr. Mundo"
+        },
+        {
+            "image": {
+                "full": "Sona.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 192
+            },
+            "title": "La Virtuosa de las Cuerdas",
+            "id": 37,
+            "key": "Sona",
+            "name": "Sona"
+        },
+        {
+            "image": {
+                "full": "Kassadin.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 48
+            },
+            "title": "El Caminante del Vacío",
+            "id": 38,
+            "key": "Kassadin",
+            "name": "Kassadin"
+        },
+        {
+            "image": {
+                "full": "Irelia.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 432
+            },
+            "title": "la Danza de las Cuchillas",
+            "id": 39,
+            "key": "Irelia",
+            "name": "Irelia"
+        },
+        {
+            "image": {
+                "full": "Janna.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 48
+            },
+            "title": "La Furia de la Tormenta",
+            "id": 40,
+            "key": "Janna",
+            "name": "Janna"
+        },
+         {
+            "image": {
+                "full": "Gangplank.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 48
+            },
+            "title": "El Azote de los Mares",
+            "id": 41,
+            "key": "Gangplank",
+            "name": "Gangplank"
+        },
+         {
+            "image": {
+                "full": "Corki.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 384
+            },
+            "title": "El Bombardero Osado",
+            "id": 42,
+            "key": "Corki",
+            "name": "Corki"
+        },
+         {
+            "image": {
+                "full": "Karma.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 432
+            },
+            "title": "La Iluminada",
+            "id": 43,
+            "key": "Karma",
+            "name": "Karma"
+        },
+         {
+            "image": {
+                "full": "Taric.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 48
+            },
+            "title": "El Escudo de Valoran",
+            "id": 44,
+            "key": "Taric",
+            "name": "Taric"
+        },
+         {
+            "image": {
+                "full": "Veigar.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 144
+            },
+            "title": "El Pequeño Maestro del Mal",
+            "id": 45,
+            "key": "Veigar",
+            "name": "Veigar"
+        },
+         {
+            "image": {
+                "full": "Trundle.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 240
+            },
+            "title": "El Rey Trol",
+            "id": 48,
+            "key": "Trundle",
+            "name": "Trundle"
+        },
+         {
+            "image": {
+                "full": "Swain.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 288
+            },
+            "title": "el Gran General de Noxus",
+            "id": 50,
+            "key": "Swain",
+            "name": "Swain"
+        },
+         {
+            "image": {
+                "full": "Caitlyn.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 192
+            },
+            "title": "La Sheriff de Piltover",
+            "id": 51,
+            "key": "Caitlyn",
+            "name": "Caitlyn"
+        },
+         {
+            "image": {
+                "full": "Blitzcrank.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 48
+            },
+            "title": "El Gran Gólem de Vapor",
+            "id": 53,
+            "key": "Blitzcrank",
+            "name": "Blitzcrank"
+        },
+         {
+            "image": {
+                "full": "Malphite.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 336
+            },
+            "title": "El Fragmento del Monolito",
+            "id": 54,
+            "key": "Malphite",
+            "name": "Malphite"
+        },
+         {
+            "image": {
+                "full": "Katarina.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 96
+            },
+            "title": "La Cuchilla Siniestra",
+            "id": 55,
+            "key": "Katarina",
+            "name": "Katarina"
+        },
+         {
+            "image": {
+                "full": "Nocturne.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 432
+            },
+            "title": "La Pesadilla Eterna",
+            "id": 56,
+            "key": "Nocturne",
+            "name": "Nocturne"
+        },
+        {
+            "image": {
+                "full": "Maokai.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 432
+            },
+            "title": "El Treant Retorcido",
+            "id": 57,
+            "key": "Maokai",
+            "name": "Maokai"
+        },
+         {
+            "image": {
+                "full": "Renekton.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 48
+            },
+            "title": "El Carnicero de las Arenas",
+            "id": 58,
+            "key": "Renekton",
+            "name": "Renekton"
+        },
+         {
+            "image": {
+                "full": "JarvanIV.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 96
+            },
+            "title": "El Ejemplo de Demacia",
+            "id": 59,
+            "key": "JarvanIV",
+            "name": "Jarvan IV"
+        },
+         {
+            "image": {
+                "full": "Elise.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 192
+            },
+            "title": "La Reina de las Arañas",
+            "id": 60,
+            "key": "Elise",
+            "name": "Elise"
+        },
+         {
+            "image": {
+                "full": "Orianna.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 96
+            },
+            "title": "La Dama Mecánica",
+            "id": 61,
+            "key": "Orianna",
+            "name": "Orianna"
+        },
+        {
+            "image": {
+                "full": "MonkeyKing.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 96
+            },
+            "title": "El Rey Mono",
+            "id": 62,
+            "key": "MonkeyKing",
+            "name": "Wukong"
+        },
+         {
+            "image": {
+                "full": "Brand.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 96
+            },
+            "title": "La Venganza Ardiente",
+            "id": 63,
+            "key": "Brand",
+            "name": "Brand"
+        },
+        {
+            "image": {
+                "full": "LeeSin.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 48
+            },
+            "title": "El Monje Ciego",
+            "id": 64,
+            "key": "LeeSin",
+            "name": "Lee Sin"
+        },
+        {
+            "image": {
+                "full": "Vayne.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 96
+            },
+            "title": "La Cazadora Noctívaga",
+            "id": 67,
+            "key": "Vayne",
+            "name": "Vayne"
+        },
+        {
+            "image": {
+                "full": "Rumble.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 192
+            },
+            "title": "La Amenaza Mecánica",
+            "id": 68,
+            "key": "Rumble",
+            "name": "Rumble"
+        },
+        {
+            "image": {
+                "full": "Cassiopeia.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 288
+            },
+            "title": "El Abrazo de la Serpiente",
+            "id": 69,
+            "key": "Cassiopeia",
+            "name": "Cassiopeia"
+        },
+         {
+            "image": {
+                "full": "Skarner.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 144
+            },
+            "title": "La Vanguardia de Cristal",
+            "id": 72,
+            "key": "Skarner",
+            "name": "Skarner"
+        },
+         {
+            "image": {
+                "full": "Heimerdinger.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 336
+            },
+            "title": "El Inventor Venerado",
+            "id": 74,
+            "key": "Heimerdinger",
+            "name": "Heimerdinger"
+        },
+        {
+            "image": {
+                "full": "Nasus.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 288
+            },
+            "title": "El Guardián de las Arenas",
+            "id": 75,
+            "key": "Nasus",
+            "name": "Nasus"
+        },
+         {
+            "image": {
+                "full": "Nidalee.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 384
+            },
+            "title": "La Cazadora Bestial",
+            "id": 76,
+            "key": "Nidalee",
+            "name": "Nidalee"
+        },
+         {
+            "image": {
+                "full": "Udyr.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 432
+            },
+            "title": "El Caminante Espiritual",
+            "id": 77,
+            "key": "Udyr",
+            "name": "Udyr"
+        },
+         {
+            "image": {
+                "full": "Poppy.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 240
+            },
+            "title": "La Guardiana del Martillo",
+            "id": 78,
+            "key": "Poppy",
+            "name": "Poppy"
+        },
+         {
+            "image": {
+                "full": "Gragas.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 192
+            },
+            "title": "El Camorrista",
+            "id": 79,
+            "key": "Gragas",
+            "name": "Gragas"
+        },
+         {
+            "image": {
+                "full": "Pantheon.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 192
+            },
+            "title": "El Artesano de la Guerra",
+            "id": 80,
+            "key": "Pantheon",
+            "name": "Pantheon"
+        },
+         {
+            "image": {
+                "full": "Ezreal.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 288
+            },
+            "title": "El Explorador Pródigo",
+            "id": 81,
+            "key": "Ezreal",
+            "name": "Ezreal"
+        },
+         {
+            "image": {
+                "full": "Mordekaiser.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 144
+            },
+            "title": "La Pesadilla de Hierro",
+            "id": 82,
+            "key": "Mordekaiser",
+            "name": "Mordekaiser"
+        },
+        {
+            "image": {
+                "full": "Yorick.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 192
+            },
+            "title": "El Pastor de las Almas Perdidas",
+            "id": 83,
+            "key": "Yorick",
+            "name": "Yorick"
+        },
+        {
+            "image": {
+                "full": "Akali.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 96
+            },
+            "title": "El Puño de la Sombra",
+            "id": 84,
+            "key": "Akali",
+            "name": "Akali"
+        },
+        {
+                "image": {
+                "full": "Kennen.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 240
+            },
+            "title": "El Corazón de la Tempestad",
+            "id": 85,
+            "key": "Kennen",
+            "name": "Kennen"
+        },
+         {
+            "image": {
+                "full": "Garen.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 96
+            },
+            "title": "El Poder de Demacia",
+            "id": 86,
+            "key": "Garen",
+            "name": "Garen"
+        },
+         {
+            "image": {
+                "full": "Leona.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 96
+            },
+            "title": "El Amanecer Radiante",
+            "id": 89,
+            "key": "Leona",
+            "name": "Leona"
+        },
+        {
+            "image": {
+                "full": "Malzahar.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 384
+            },
+            "title": "El Profeta del Vacío",
+            "id": 90,
+            "key": "Malzahar",
+            "name": "Malzahar"
+        },
+        {
+            "image": {
+                "full": "Talon.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 0
+            },
+            "title": "La Sombra de la Espada",
+            "id": 91,
+            "key": "Talon",
+            "name": "Talon"
+        },
+        {
+            "image": {
+                "full": "Riven.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 144
+            },
+            "title": "La Exiliada",
+            "id": 92,
+            "key": "Riven",
+            "name": "Riven"
+        },
+        {
+            "image": {
+                "full": "KogMaw.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 432
+            },
+            "title": "La Boca del Abismo",
+            "id": 96,
+            "key": "KogMaw",
+            "name": "Kog'Maw"
+        },
+        {
+            "image": {
+                "full": "Shen.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 384
+            },
+            "title": "El Ojo del Crepúsculo",
+            "id": 98,
+            "key": "Shen",
+            "name": "Shen"
+        },
+        {
+            "image": {
+                "full": "Lux.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 288
+            },
+            "title": "La Dama Luminosa",
+            "id": 99,
+            "key": "Lux",
+            "name": "Lux"
+        },
+        {
+            "image": {
+                "full": "Xerath.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 48
+            },
+            "title": "El Mago Ascendente",
+            "id": 101,
+            "key": "Xerath",
+            "name": "Xerath"
+        },
+        {
+            "image": {
+                "full": "Shyvana.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 432
+            },
+            "title": "La Medio Dragón",
+            "id": 102,
+            "key": "Shyvana",
+            "name": "Shyvana"
+        },
+        {
+            "image": {
+                "full": "Ahri.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 48
+            },
+            "title": "La Mujer Zorro de nueve Colas",
+            "id": 103,
+            "key": "Ahri",
+            "name": "Ahri"
+        },
+        {
+            "image": {
+                "full": "Graves.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 240
+            },
+            "title": "El Forajido",
+            "id": 104,
+            "key": "Graves",
+            "name": "Graves"
+        },
+        {
+            "image": {
+                "full": "Fizz.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 432
+            },
+            "title": "El Gamberro de las Mareas",
+            "id": 105,
+            "key": "Fizz",
+            "name": "Fizz"
+        },
+        {
+            "image": {
+                "full": "Volibear.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 384
+            },
+            "title": "El Rugir del Trueno",
+            "id": 106,
+            "key": "Volibear",
+            "name": "Volibear"
+        },
+        {
+            "image": {
+                "full": "Rengar.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 96
+            },
+            "title": "El Acechador Orgulloso",
+            "id": 107,
+            "key": "Rengar",
+            "name": "Rengar"
+        },
+        {
+            "image": {
+                "full": "Varus.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 48
+            },
+            "title": "La Flecha del Castigo",
+            "id": 110,
+            "key": "Varus",
+            "name": "Varus"
+        },
+        {
+            "image": {
+                "full": "Nautilus.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 336
+            },
+            "title": "El Titán Abisal",
+            "id": 111,
+            "key": "Nautilus",
+            "name": "Nautilus"
+        },
+        {
+            "image": {
+                "full": "Viktor.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 288
+            },
+            "title": "El Heraldo de las Máquinas",
+            "id": 112,
+            "key": "Viktor",
+            "name": "Viktor"
+        },
+        {
+            "image": {
+                "full": "Sejuani.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 288
+            },
+            "title": "La Furia del Norte",
+            "id": 113,
+            "key": "Sejuani",
+            "name": "Sejuani"
+        },
+        {
+            "image": {
+                "full": "Fiora.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 384
+            },
+            "title": "La Estocada Excelsa",
+            "id": 114,
+            "key": "Fiora",
+            "name": "Fiora"
+        },
+        {
+            "image": {
+                "full": "Ziggs.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 336
+            },
+            "title": "El Experto en Hexplosivos",
+            "id": 115,
+            "key": "Ziggs",
+            "name": "Ziggs"
+        },
+        {
+            "image": {
+                "full": "Lulu.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 240
+            },
+            "title": "El Hada Hechicera",
+            "id": 117,
+            "key": "Lulu",
+            "name": "Lulu"
+        },
+        {
+            "image": {
+                "full": "Draven.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 48
+            },
+            "title": "El Ejecutor Glorioso",
+            "id": 119,
+            "key": "Draven",
+            "name": "Draven"
+        },
+        {
+            "image": {
+                "full": "Hecarim.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 288
+            },
+            "title": "La Sombra de la Guerra",
+            "id": 120,
+            "key": "Hecarim",
+            "name": "Hecarim"
+        },
+        {
+            "image": {
+                "full": "Khazix.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 288
+            },
+            "title": "El Saqueador del Vacío",
+            "id": 121,
+            "key": "Khazix",
+            "name": "Kha'Zix"
+        },
+        {
+            "image": {
+                "full": "Darius.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 432
+            },
+            "title": "La Mano de Noxus",
+            "id": 122,
+            "key": "Darius",
+            "name": "Darius"
+        },
+        {
+            "image": {
+                "full": "Jayce.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 192
+            },
+            "title": "El Defensor del Mañana",
+            "id": 126,
+            "key": "Jayce",
+            "name": "Jayce"
+        },
+        {
+            "image": {
+                "full": "Lissandra.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 144
+            },
+            "title": "La Bruja de Hielo",
+            "id": 127,
+            "key": "Lissandra",
+            "name": "Lissandra"
+        },
+        {
+            "image": {
+                "full": "Diana.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 0
+            },
+            "title": "El Desdén de la Luna",
+            "id": 131,
+            "key": "Diana",
+            "name": "Diana"
+        },
+        {
+            "image": {
+                "full": "Quinn.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 336
+            },
+            "title": "Las Alas de Demacia",
+            "id": 133,
+            "key": "Quinn",
+            "name": "Quinn"
+        },
+        {
+            "image": {
+                "full": "Syndra.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 336
+            },
+            "title": "La Soberana Oscura",
+            "id": 134,
+            "key": "Syndra",
+            "name": "Syndra"
+        },
+        {
+            "image": {
+                "full": "AurelionSol.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 384
+            },
+            "title": "El Forjador de Estrellas",
+            "id": 136,
+            "key": "AurelionSol",
+            "name": "Aurelion Sol"
+        },
+        {
+            "image": {
+                "full": "Kayn.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 192
+            },
+            "title": "la Guadaña de las Sombras",
+            "id": 141,
+            "key": "Kayn",
+            "name": "Kayn"
+        },
+        {
+            "image": {
+                "full": "Zoe.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 432
+            },
+            "title": "el Aspecto del Crepúsculo",
+            "id": 142,
+            "key": "Zoe",
+            "name": "Zoe"
+        },
+        {
+            "image": {
+                "full": "Zyra.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 0
+            },
+            "title": "La Dama de Espinas",
+            "id": 143,
+            "key": "Zyra",
+            "name": "Zyra"
+        },
+        {
+            "image": {
+                "full": "Kaisa.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 336
+            },
+            "title": "La Hija del Vacío",
+            "id": 145,
+            "key": "Kaisa",
+            "name": "Kai'Sa"
+        },
+        {
+            "image": {
+                "full": "Gnar.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 144
+            },
+            "title": "El Eslabón Perdido",
+            "id": 150,
+            "key": "Gnar",
+            "name": "Gnar"
+        },
+        {
+            "image": {
+                "full": "Zac.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 240
+            },
+            "title": "El Arma Secreta",
+            "id": 154,
+            "key": "Zac",
+            "name": "Zac"
+        },
+        {
+            "image": {
+                "full": "Yasuo.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 144
+            },
+            "title": "La Espada sin Honor",
+            "id": 157,
+            "key": "Yasuo",
+            "name": "Yasuo"
+        },
+        {
+            "image": {
+                "full": "Velkoz.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 192
+            },
+            "title": "El Ojo del Vacío",
+            "id": 161,
+            "key": "Velkoz",
+            "name": "Vel'Koz"
+        },
+        {
+            "image": {
+                "full": "Taliyah.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 432
+            },
+            "title": "La Tejedora de Piedra",
+            "id": 163,
+            "key": "Taliyah",
+            "name": "Taliyah"
+        },
+        {
+            "image": {
+                "full": "Camille.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 240
+            },
+            "title": "la Sombra de Acero",
+            "id": 164,
+            "key": "Camille",
+            "name": "Camille"
+        },
+        {
+            "image": {
+                "full": "Braum.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 144
+            },
+            "title": "El Corazón de Freljord",
+            "id": 201,
+            "key": "Braum",
+            "name": "Braum"
+        },
+        {
+            "image": {
+                "full": "Jhin.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 240
+            },
+            "title": "El Virtuoso",
+            "id": 202,
+            "key": "Jhin",
+            "name": "Jhin"
+        },
+        {
+            "image": {
+                "full": "Kindred.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 336
+            },
+            "title": "Los Cazadores Eternos",
+            "id": 203,
+            "key": "Kindred",
+            "name": "Kindred"
+        },
+        {
+            "image": {
+                "full": "Jinx.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 288
+            },
+            "title": "La Bala Perdida",
+            "id": 222,
+            "key": "Jinx",
+            "name": "Jinx"
+        },
+        {
+            "image": {
+                "full": "TahmKench.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 384
+            },
+            "title": "El Rey del Río",
+            "id": 223,
+            "key": "TahmKench",
+            "name": "Tahm Kench"
+        },
+        {
+            "image": {
+                "full": "Lucian.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 192
+            },
+            "title": "El Destello Purificador",
+            "id": 236,
+            "key": "Lucian",
+            "name": "Lucian"
+        },
+        {
+            "image": {
+                "full": "Zed.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 288
+            },
+            "title": "El Maestro de las Sombras",
+            "id": 238,
+            "key": "Zed",
+            "name": "Zed"
+        },
+        {
+            "image": {
+                "full": "Kled.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 384
+            },
+            "title": "El Jinete Cascarrabias",
+            "id": 240,
+            "key": "Kled",
+            "name": "Kled"
+        },
+        {
+            "image": {
+                "full": "Ekko.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 144
+            },
+            "title": "El Chico que Quebró el Tiempo",
+            "id": 245,
+            "key": "Ekko",
+            "name": "Ekko"
+        },
+        {
+            "image": {
+                "full": "Vi.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 240
+            },
+            "title": "La Agente de Piltover",
+            "id": 254,
+            "key": "Vi",
+            "name": "Vi"
+        },
+        {
+            "image": {
+                "full": "Aatrox.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 0
+            },
+            "title": "La Espada de los Oscuros",
+            "id": 266,
+            "key": "Aatrox",
+            "name": "Aatrox"
+        },
+        {
+            "image": {
+                "full": "Nami.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 240
+            },
+            "title": "La Invocadora de Mareas",
+            "id": 267,
+            "key": "Nami",
+            "name": "Nami"
+        },
+        {
+            "image": {
+                "full": "Azir.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 432
+            },
+            "title": "El Emperador de las Arenas",
+            "id": 268,
+            "key": "Azir",
+            "name": "Azir"
+        },
+        {
+            "image": {
+                "full": "Thresh.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 144
+            },
+            "title": "El Carcelero Implacable",
+            "id": 412,
+            "key": "Thresh",
+            "name": "Thresh"
+        },
+        {
+            "image": {
+                "full": "Illaoi.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 384
+            },
+            "title": "La Sacerdotisa del Kraken",
+            "id": 420,
+            "key": "Illaoi",
+            "name": "Illaoi"
+        },
+        {
+            "image": {
+                "full": "RekSai.png",
+                "group": "champion",
+                "sprite": "champion3.png",
+                "h": 48,
+                "w": 48,
+                "y": 0,
+                "x": 0
+            },
+            "title": "La Amenaza Subterránea",
+            "id": 421,
+            "key": "RekSai",
+            "name": "Rek'Sai"
+        },
+        {
+            "image": {
+                "full": "Ivern.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 0
+            },
+            "title": "El Padre Arborescente",
+            "id": 427,
+            "key": "Ivern",
+            "name": "Ivern"
+        },
+        {
+            "image": {
+                "full": "Kalista.png",
+                "group": "champion",
+                "sprite": "champion1.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 384
+            },
+            "title": "El Espíritu de la Venganza",
+            "id": 429,
+            "key": "Kalista",
+            "name": "Kalista"
+        },
+        {
+            "image": {
+                "full": "Bard.png",
+                "group": "champion",
+                "sprite": "champion0.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 0
+            },
+            "title": "El Guardián Errante",
+            "id": 432,
+            "key": "Bard",
+            "name": "Bardo"
+        },
+        {
+            "image": {
+                "full": "Rakan.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 384
+            },
+            "title": "El Encantador",
+            "id": 497,
+            "key": "Rakan",
+            "name": "Rakan"
+        },
+        {
+            "image": {
+                "full": "Xayah.png",
+                "group": "champion",
+                "sprite": "champion4.png",
+                "h": 48,
+                "w": 48,
+                "y": 48,
+                "x": 0
+            },
+            "title": "La Rebelde",
+            "id": 498,
+            "key": "Xayah",
+            "name": "Xayah"
+        },
+        {
+            "image": {
+                "full": "Ornn.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 144
+            },
+            "title": "Las Llamas de la Forja",
+            "id": 516,
+            "key": "Ornn",
+            "name": "Ornn"
+        },
+        {
+            "image": {
+                "full": "Pyke.png",
+                "group": "champion",
+                "sprite": "champion2.png",
+                "h": 48,
+                "w": 48,
+                "y": 96,
+                "x": 288
+            },
+            "title": "el Destripador de los Puertos",
+            "id": 555,
+            "key": "Pyke",
+            "name": "Pyke"
+        }
+    ],
+    "summoners": [
+        {
+            "profileIconId": 1439,
+            "name": "Kelear",
+            "summonerLevel": 35,
+            "accountId": 21884811,
+            "id": 19222984,
+            "revisionDate": 1528761976000
+        },
+        {
+            "profileIconId": 547,
+            "name": "Vicmara",
+            "summonerLevel": 38,
+            "accountId": 21817634,
+            "id": 19155803,
+            "revisionDate": 1528830891000
+        },
+        {
+            "profileIconId": 3496,
+            "name": "evokante",
+            "summonerLevel": 65,
+            "accountId": 21791243,
+            "id": 19129412,
+            "revisionDate": 1528752391000
+        }
+    ],
+    "matches": [
+        {
+            "name": "Kelear",
+            "matches": [
+                {
+                    "lane": "MID",
+                    "gameId": 3666617986,
+                    "champion": 30,
+                    "platformId": "EUW1",
+                    "timestamp": 1528759701726,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3666598529,
+                    "champion": 99,
+                    "platformId": "EUW1",
+                    "timestamp": 1528757154479,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3666557923,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1528754677855,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3666532087,
+                    "champion": 74,
+                    "platformId": "EUW1",
+                    "timestamp": 1528752137714,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3665222014,
+                    "champion": 30,
+                    "platformId": "EUW1",
+                    "timestamp": 1528664668651,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "JUNGLE",
+                    "gameId": 3665038700,
+                    "champion": 30,
+                    "platformId": "EUW1",
+                    "timestamp": 1528656714012,
+                    "queue": 420,
+                    "role": "NONE",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3664957787,
+                    "champion": 30,
+                    "platformId": "EUW1",
+                    "timestamp": 1528654194007,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3664790949,
+                    "champion": 30,
+                    "platformId": "EUW1",
+                    "timestamp": 1528646211215,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3664727030,
+                    "champion": 134,
+                    "platformId": "EUW1",
+                    "timestamp": 1528644458977,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3664430618,
+                    "champion": 30,
+                    "platformId": "EUW1",
+                    "timestamp": 1528628949194,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3663343157,
+                    "champion": 74,
+                    "platformId": "EUW1",
+                    "timestamp": 1528564371576,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "NONE",
+                    "gameId": 3663300561,
+                    "champion": 101,
+                    "platformId": "EUW1",
+                    "timestamp": 1528562816914,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3663008703,
+                    "champion": 105,
+                    "platformId": "EUW1",
+                    "timestamp": 1528549362025,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3659907948,
+                    "champion": 53,
+                    "platformId": "EUW1",
+                    "timestamp": 1528305747797,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3659081716,
+                    "champion": 30,
+                    "platformId": "EUW1",
+                    "timestamp": 1528238642588,
+                    "queue": 400,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3659043863,
+                    "champion": 8,
+                    "platformId": "EUW1",
+                    "timestamp": 1528236662037,
+                    "queue": 400,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3658444427,
+                    "champion": 99,
+                    "platformId": "EUW1",
+                    "timestamp": 1528223845132,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3658283524,
+                    "champion": 74,
+                    "platformId": "EUW1",
+                    "timestamp": 1528217255785,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3657331025,
+                    "champion": 74,
+                    "platformId": "EUW1",
+                    "timestamp": 1528135637303,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "NONE",
+                    "gameId": 3656041961,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1528054090412,
+                    "queue": 420,
+                    "role": "DUO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3655968039,
+                    "champion": 74,
+                    "platformId": "EUW1",
+                    "timestamp": 1528051536187,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3655889639,
+                    "champion": 103,
+                    "platformId": "EUW1",
+                    "timestamp": 1528049375525,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3650295953,
+                    "champion": 74,
+                    "platformId": "EUW1",
+                    "timestamp": 1527717693007,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3650137579,
+                    "champion": 25,
+                    "platformId": "EUW1",
+                    "timestamp": 1527709637169,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3648128964,
+                    "champion": 74,
+                    "platformId": "EUW1",
+                    "timestamp": 1527541659945,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3648076215,
+                    "champion": 45,
+                    "platformId": "EUW1",
+                    "timestamp": 1527539257718,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3646958555,
+                    "champion": 74,
+                    "platformId": "EUW1",
+                    "timestamp": 1527448950304,
+                    "queue": 420,
+                    "role": "DUO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3646797878,
+                    "champion": 90,
+                    "platformId": "EUW1",
+                    "timestamp": 1527444320891,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3646696384,
+                    "champion": 74,
+                    "platformId": "EUW1",
+                    "timestamp": 1527441560431,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3642569641,
+                    "champion": 74,
+                    "platformId": "EUW1",
+                    "timestamp": 1527195333971,
+                    "queue": 420,
+                    "role": "DUO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3640672678,
+                    "champion": 99,
+                    "platformId": "EUW1",
+                    "timestamp": 1527030069186,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3640653401,
+                    "champion": 143,
+                    "platformId": "EUW1",
+                    "timestamp": 1527027694115,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3640615636,
+                    "champion": 79,
+                    "platformId": "EUW1",
+                    "timestamp": 1527025787350,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3637021134,
+                    "champion": 74,
+                    "platformId": "EUW1",
+                    "timestamp": 1526766618608,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "NONE",
+                    "gameId": 3636996733,
+                    "champion": 136,
+                    "platformId": "EUW1",
+                    "timestamp": 1526765818291,
+                    "queue": 420,
+                    "role": "DUO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3636961981,
+                    "champion": 45,
+                    "platformId": "EUW1",
+                    "timestamp": 1526763434035,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3636918444,
+                    "champion": 45,
+                    "platformId": "EUW1",
+                    "timestamp": 1526761334484,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3636864441,
+                    "champion": 53,
+                    "platformId": "EUW1",
+                    "timestamp": 1526758753655,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3631962348,
+                    "champion": 76,
+                    "platformId": "EUW1",
+                    "timestamp": 1526347195974,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3631939498,
+                    "champion": 427,
+                    "platformId": "EUW1",
+                    "timestamp": 1526344923059,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3631926225,
+                    "champion": 99,
+                    "platformId": "EUW1",
+                    "timestamp": 1526342603641,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3631912945,
+                    "champion": 99,
+                    "platformId": "EUW1",
+                    "timestamp": 1526340927756,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3631895307,
+                    "champion": 25,
+                    "platformId": "EUW1",
+                    "timestamp": 1526338190675,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3629787268,
+                    "champion": 90,
+                    "platformId": "EUW1",
+                    "timestamp": 1526162632114,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3629754223,
+                    "champion": 38,
+                    "platformId": "EUW1",
+                    "timestamp": 1526160303082,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "NONE",
+                    "gameId": 3629715969,
+                    "champion": 516,
+                    "platformId": "EUW1",
+                    "timestamp": 1526158891386,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3629677232,
+                    "champion": 25,
+                    "platformId": "EUW1",
+                    "timestamp": 1526155960554,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3629632184,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1526153458549,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3497340692,
+                    "champion": 99,
+                    "platformId": "EUW1",
+                    "timestamp": 1516314914406,
+                    "queue": 400,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3497265583,
+                    "champion": 53,
+                    "platformId": "EUW1",
+                    "timestamp": 1516312149541,
+                    "queue": 400,
+                    "role": "DUO_SUPPORT",
+                    "season": 11
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3497077388,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1516303209178,
+                    "queue": 400,
+                    "role": "SOLO",
+                    "season": 11
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3407431097,
+                    "champion": 40,
+                    "platformId": "EUW1",
+                    "timestamp": 1509994415424,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 9
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3406308714,
+                    "champion": 412,
+                    "platformId": "EUW1",
+                    "timestamp": 1509905461331,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3142894503,
+                    "champion": 99,
+                    "platformId": "EUW1",
+                    "timestamp": 1492195083738,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3089833720,
+                    "champion": 50,
+                    "platformId": "EUW1",
+                    "timestamp": 1488652296867,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3089736994,
+                    "champion": 136,
+                    "platformId": "EUW1",
+                    "timestamp": 1488649563836,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3056435723,
+                    "champion": 98,
+                    "platformId": "EUW1",
+                    "timestamp": 1486911209893,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3051046155,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1486596600405,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3050999908,
+                    "champion": 51,
+                    "platformId": "EUW1",
+                    "timestamp": 1486594070878,
+                    "queue": 420,
+                    "role": "DUO_CARRY",
+                    "season": 9
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3050682704,
+                    "champion": 21,
+                    "platformId": "EUW1",
+                    "timestamp": 1486577778808,
+                    "queue": 420,
+                    "role": "DUO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3046747776,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1486322469804,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3046675213,
+                    "champion": 420,
+                    "platformId": "EUW1",
+                    "timestamp": 1486319597007,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3037730058,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1485729160002,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3037711012,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1485726196793,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3037569273,
+                    "champion": 99,
+                    "platformId": "EUW1",
+                    "timestamp": 1485720747376,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "JUNGLE",
+                    "gameId": 3037518653,
+                    "champion": 20,
+                    "platformId": "EUW1",
+                    "timestamp": 1485718277698,
+                    "queue": 420,
+                    "role": "NONE",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3034032546,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1485530748612,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3029215894,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1485209197562,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3029148304,
+                    "champion": 57,
+                    "platformId": "EUW1",
+                    "timestamp": 1485206892281,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3025022525,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1484952788761,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3024984574,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1484950658155,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3024457745,
+                    "champion": 36,
+                    "platformId": "EUW1",
+                    "timestamp": 1484931146380,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3024246415,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1484927795859,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3024056105,
+                    "champion": 76,
+                    "platformId": "EUW1",
+                    "timestamp": 1484924965677,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3022288348,
+                    "champion": 45,
+                    "platformId": "EUW1",
+                    "timestamp": 1484774178200,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3021133179,
+                    "champion": 30,
+                    "platformId": "EUW1",
+                    "timestamp": 1484678705780,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3021054413,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1484676448123,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3020081408,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1484602623787,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3020021751,
+                    "champion": 48,
+                    "platformId": "EUW1",
+                    "timestamp": 1484600091175,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3018644849,
+                    "champion": 1,
+                    "platformId": "EUW1",
+                    "timestamp": 1484510008986,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3018539385,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1484506594313,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3014380965,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1484244308301,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3011899816,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1484085067361,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3011890624,
+                    "champion": 63,
+                    "platformId": "EUW1",
+                    "timestamp": 1484082486093,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3009436936,
+                    "champion": 34,
+                    "platformId": "EUW1",
+                    "timestamp": 1483901191062,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3009371922,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1483897551237,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3009289018,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1483894654874,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3007809304,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1483814244807,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3007728210,
+                    "champion": 99,
+                    "platformId": "EUW1",
+                    "timestamp": 1483811289100,
+                    "queue": 420,
+                    "role": "DUO",
+                    "season": 9
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3006818247,
+                    "champion": 53,
+                    "platformId": "EUW1",
+                    "timestamp": 1483738768476,
+                    "queue": 420,
+                    "role": "DUO_SUPPORT",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3006673289,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1483735429798,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3006561246,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1483732808524,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "JUNGLE",
+                    "gameId": 3005113557,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1483639715913,
+                    "queue": 420,
+                    "role": "NONE",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3004396248,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1483618776261,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3004390661,
+                    "champion": 223,
+                    "platformId": "EUW1",
+                    "timestamp": 1483616162512,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3003960426,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1483564943023,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3002613063,
+                    "champion": 115,
+                    "platformId": "EUW1",
+                    "timestamp": 1483480814321,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "BOTTOM",
+                    "gameId": 3002055384,
+                    "champion": 81,
+                    "platformId": "EUW1",
+                    "timestamp": 1483455616834,
+                    "queue": 420,
+                    "role": "DUO",
+                    "season": 9
+                },
+                {
+                    "lane": "TOP",
+                    "gameId": 3001998410,
+                    "champion": 223,
+                    "platformId": "EUW1",
+                    "timestamp": 1483453493143,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                },
+                {
+                    "lane": "MID",
+                    "gameId": 3001523283,
+                    "champion": 105,
+                    "platformId": "EUW1",
+                    "timestamp": 1483394850787,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 9
+                }
+            ],
+            "endIndex": 100,
+            "startIndex": 0,
+            "totalGames": 572
+        }
+    ]
+}
