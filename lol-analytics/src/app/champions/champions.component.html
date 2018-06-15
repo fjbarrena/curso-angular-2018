@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-md-4" *ngFor="let champ of todosLosChampions">
+      <a [routerLink]="'/champions/' + champ.name">
+        <div class="profile-sidebar">
+            <div class="portlet light profile-sidebar-portlet">
+                <div class="profile-userpic">
+                    <img [src]="'https://ddragon.leagueoflegends.com/cdn/7.10.1/img/champion/' + champ.image.full" 
+                    class="img-responsive" alt=""> </div>
+                
+                <div class="profile-usertitle">
+                    <div class="profile-usertitle-name"> {{champ.name}} </div>
+                    <div class="profile-usertitle-job"> {{champ.title}} </div>
+                </div>
+              </div>
+        </div>
+      </a>
+  </div>
+</div>
