@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { ChampionService } from './champion.service';
+import { ChampionStaticData } from './champion.static.data';
 
 @Component({
   selector: 'lol-champions',
@@ -7,13 +9,13 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./champions.component.scss']
 })
 export class ChampionsComponent implements OnInit {
-  public todosLosChampions: any = [];
+  public todosLosChampions: ChampionStaticData[] = [];
 
-  constructor(private readonly http: HttpClient) { }
+  constructor(private readonly championService: ChampionService) { }
 
   ngOnInit() {
-    this.http.get('http://localhost:3000/champ-static-data').subscribe(
-      (resultado) => {
+    this.championService.getAll().subscribe(
+      (resultado: ChampionStaticData[]) => {
         console.log(resultado);
         this.todosLosChampions = resultado;
       }
