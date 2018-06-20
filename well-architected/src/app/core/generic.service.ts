@@ -15,7 +15,11 @@ export class GenericService<T> {
     return this.httpcli.get<T>(this.composeUrl() + '/' + id);
   }
 
+  public composeBasicUrl(endpoint: string): string {
+    return environment.baseEndpointUrl + '/' + endpoint;
+  }
+
   private composeUrl(): string {
-    return environment.baseEndpointUrl + '/' + this.endpoint;
+    return this.composeBasicUrl(this.endpoint);
   }
 }

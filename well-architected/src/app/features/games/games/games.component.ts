@@ -9,7 +9,7 @@ import { Token } from '../../../shared/entities/token';
   styleUrls: ['./games.component.scss']
 })
 export class GamesComponent implements OnInit {
-
+  public formData: string = '';
   constructor(private readonly loginService: LoginService) { }
 
   ngOnInit() {

@@ -7,6 +7,7 @@ import { StatsModule } from './stats/stats.module';
 import { CoreModule } from '../core/core.module';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { RouterModule } from '@angular/router';
     // GamesModule,
     // StatsModule,
     CoreModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
   declarations: [],
   exports: [CoreModule]
