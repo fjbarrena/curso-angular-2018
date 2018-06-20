@@ -10,6 +10,10 @@ import { DashboardInvocadorComponent } from './dashboard-invocador/dashboard-inv
 import { ChampionsComponent } from './champions/champions.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ChampionDetailComponent } from './champion-detail/champion-detail.component';
+import { ProfileComponent } from './dashboard-invocador/profile/profile.component';
+import { LiveComponent } from './dashboard-invocador/live/live.component';
+import { LeaguesComponent } from './dashboard-invocador/leagues/leagues.component';
+import { MasteryComponent } from './dashboard-invocador/mastery/mastery.component';
 
 
 @NgModule({
@@ -20,7 +24,11 @@ import { ChampionDetailComponent } from './champion-detail/champion-detail.compo
     GamesComponent,
     DashboardInvocadorComponent,
     ChampionsComponent,
-    ChampionDetailComponent
+    ChampionDetailComponent,
+    ProfileComponent,
+    LiveComponent,
+    LeaguesComponent,
+    MasteryComponent
   ],
   imports: [
     BrowserModule,
