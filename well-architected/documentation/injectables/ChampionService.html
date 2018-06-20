@@ -648,6 +648,7 @@ import { ChampionStaticData } from &#x27;../shared/entities/champion.static.data
 export class ChampionService extends GenericService&lt;ChampionStaticData&gt; {
   constructor(private readonly http: HttpClient) {
     super(http, &#x27;champ-static-data&#x27;);
+    console.log(&#x27;INSTANCIANDO NUEVO CHAMPIONSERVICE&#x27;);
   }
 
 }

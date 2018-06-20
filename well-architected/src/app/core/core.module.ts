@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ChampionService } from './champion.service';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from '../shared/shared.module';
+import { LoginService } from './login.service';
 
 @NgModule({
   imports: [
@@ -11,7 +12,8 @@ import { SharedModule } from '../shared/shared.module';
     SharedModule
   ],
   providers: [
-    ChampionService
+    ChampionService,
+    LoginService
   ],
   exports: [SharedModule]
 })
