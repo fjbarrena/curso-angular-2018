@@ -11,21 +11,6 @@ import { CurrentUserService } from './core/current-user.service';
 })
 export class AppComponent {
   constructor(
-    private readonly loginService: LoginService,
-    private readonly currentUserService: CurrentUserService
   ) {
-    let login: Login = new Login();
-
-    login.email = 'kelear@iti.es';
-    login.password = 'n0tiene';
-
-    this.loginService.login(login).subscribe(
-      (receivedToken: Token) => {
-        console.log('Login correcto. El token es: '
-          + receivedToken.access_token);
-
-        this.currentUserService.token = receivedToken;
-      }
-    );
   }
 }

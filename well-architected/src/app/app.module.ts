@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { FeaturesModule } from './features/features.module';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FeaturesModule,
     CoreModule,
-    SharedModule
+    SharedModule,
+    FormsModule
   ],
   providers: [],
   exports: [

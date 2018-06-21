@@ -6,8 +6,22 @@ import { GamesModule } from './games/games.module';
 import { StatsModule } from './stats/stats.module';
 import { CoreModule } from '../core/core.module';
 import { SharedModule } from '../shared/shared.module';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { PrivateComponent } from './private/private.component';
+
+const routes: Routes = [
+  { path: '',
+    component: PrivateComponent,
+    children: [
+      { path: 'champions', loadChildren: './features/champions/champions.module#ChampionsModule'},
+      { path: 'games', loadChildren: './features/games/games.module#GamesModule'},
+      { path: 'stats', loadChildren: './features/stats/stats.module#StatsModule'},
+      { path: 'dashboard', loadChildren: './features/dashboard/dashboard.module#DashboardModule'}
+    ]
+  }
+];
+
 
 @NgModule({
   imports: [
@@ -23,10 +37,10 @@ import { FormsModule } from '@angular/forms';
     // GamesModule,
     // StatsModule,
     CoreModule,
-    RouterModule,
+    RouterModule.forChild(routes),
     FormsModule
   ],
-  declarations: [],
+  declarations: [PrivateComponent],
   exports: [CoreModule]
 })
 export class FeaturesModule { }

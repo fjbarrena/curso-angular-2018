@@ -1,0 +1,82 @@
+<div class="user-login-5">
+  <div class="row bs-reset">
+      <div class="col-md-6 login-container bs-reset">
+          <img class="login-logo login-6" src="../assets/pages/img/login/login-invert.png">
+          <div class="login-content">
+              <h1>LOL Analytics</h1>
+                  <div class="alert alert-danger display-hide">
+                      <button class="close" data-close="alert"></button>
+                      <span>Enter any username and password. </span>
+                  </div>
+
+                  <div class="alert alert-danger display-hide">
+                    <button class="close" data-close="alert"></button>
+                    <span>{{errorMessage}}</span>
+                </div>
+                  <div class="row">
+                      <div class="col-xs-6">
+                          <input [(ngModel)]="username" class="form-control form-control-solid placeholder-no-fix form-group" type="text" autocomplete="off" placeholder="Username" name="username" required="" aria-required="true"> </div>
+                      <div class="col-xs-6">
+                          <input [(ngModel)]="password" class="form-control form-control-solid placeholder-no-fix form-group" type="password" autocomplete="off" placeholder="Password" name="password" required="" aria-required="true"> </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <label class="rememberme mt-checkbox mt-checkbox-outline">
+                              <input type="checkbox" name="remember" value="1"> Remember me
+                              <span></span>
+                          </label>
+                      </div>
+                      <div class="col-sm-8 text-right">
+                          <div class="forgot-password">
+                              <a href="javascript:;" id="forget-password" class="forget-password">Forgot Password?</a>
+                          </div>
+                          <button (click)="doSubmit()" class="btn blue" type="button">Sign In</button>
+                      </div>
+                  </div>
+              <!-- BEGIN FORGOT PASSWORD FORM -->
+              <form class="forget-form" action="javascript:;" method="post" style="display: none;">
+                  <h3>Forgot Password ?</h3>
+                  <p> Enter your e-mail address below to reset your password. </p>
+                  <div class="form-group">
+                      <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Email" name="email"> </div>
+                  <div class="form-actions">
+                      <button type="button" id="back-btn" class="btn blue btn-outline">Back</button>
+                      <button type="submit" class="btn blue uppercase pull-right">Submit</button>
+                  </div>
+              </form>
+              <!-- END FORGOT PASSWORD FORM -->
+          </div>
+          <div class="login-footer">
+              <div class="row bs-reset">
+                  <div class="col-xs-5 bs-reset">
+                      <ul class="login-social">
+                          <li>
+                              <a href="javascript:;">
+                                  <i class="icon-social-facebook"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="javascript:;">
+                                  <i class="icon-social-twitter"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="javascript:;">
+                                  <i class="icon-social-dribbble"></i>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-xs-7 bs-reset">
+                      <div class="login-copyright text-right">
+                          <p>Copyright © Keenthemes 2015</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 bs-reset">
+          <div class="login-bg" style="position: relative; z-index: 0; background: none;"> <div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 94px; width: 491px; z-index: -999998; position: absolute;"><img src="../assets/pages/img/login/bg1.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 491px; height: 441.9px; max-height: none; max-width: none; z-index: -999999; left: 0px; top: -173.95px;"></div></div>
+      </div>
+  </div>
+</div>
