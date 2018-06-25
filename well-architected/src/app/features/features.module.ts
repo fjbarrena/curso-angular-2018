@@ -36,11 +36,10 @@ const routes: Routes = [
     // DashboardModule,
     // GamesModule,
     // StatsModule,
-    CoreModule,
     RouterModule.forChild(routes),
     FormsModule
   ],
   declarations: [PrivateComponent],
-  exports: [CoreModule]
+  exports: []
 })
 export class FeaturesModule { }

@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { ChampionsComponent } from './champions/champions.component';
 import { ChampionDetailComponent } from './champion-detail/champion-detail.component';
 import { RouterModule, Routes } from '@angular/router';
+import { SharedModule } from '../../shared/shared.module';
+import { CoreModule } from '../../core/core.module';
 
 const routes: Routes = [
   { path: '', component: ChampionsComponent},
@@ -13,7 +15,9 @@ const routes: Routes = [
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    SharedModule,
+    CoreModule
   ],
   declarations: [
     ChampionsComponent,

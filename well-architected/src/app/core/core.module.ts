@@ -9,14 +9,13 @@ import { CurrentUserService } from './current-user.service';
 @NgModule({
   imports: [
     CommonModule,
-    HttpClientModule,
-    SharedModule
+    HttpClientModule
   ],
   providers: [
     ChampionService,
     LoginService,
     CurrentUserService
   ],
-  exports: [SharedModule]
+  exports: []
 })
 export class CoreModule { }

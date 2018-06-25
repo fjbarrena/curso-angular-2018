@@ -1,0 +1,68 @@
+iti-horizontal-timeline {
+    overflow: hidden;
+}
+
+iti-horizontal-timeline div {
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.3s, border-color 0.3s;
+    -moz-transition: background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s, border-color 0.3s;
+    border-color: #ef4138 !important;
+}
+
+.iti-timeline-container {
+    height: 40px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.iti-timeline-container-passed-date {
+    border-bottom: 3px solid #f89b34;
+}
+
+.iti-timeline-container-nopassed-date {
+    border-bottom: 3px solid #fce8cf;
+}
+
+.iti-timeline-event {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 33px;
+    left: 44%;
+}
+
+.odd-event .iti-timeline-event-content {
+    position: relative;
+    width: 300px;
+    font-size: 9pt;
+    left: 22%;
+    top: 3px;
+}
+
+.odd-event .iti-timeline-event-content-title {
+    top: -28px;
+}
+
+.even-event .iti-timeline-event-content {
+    position: relative;
+    width: 300px;
+    font-size: 9pt;
+    left: 22%;
+    top: 37px;
+}
+
+.even-event .iti-timeline-event-content-title {
+    top: 34px;
+}
+
+.dontHaveEvent {
+
+}
+
+.haveEvent {
+    border-radius: 25px !important;
+    background: red;
+}

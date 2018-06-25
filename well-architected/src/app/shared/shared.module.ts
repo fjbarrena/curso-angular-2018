@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { TimelineComponent } from './timeline/timeline.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [],
-  exports: []
+  declarations: [TimelineComponent],
+  exports: [TimelineComponent]
 })
 export class SharedModule { }

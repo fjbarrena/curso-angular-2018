@@ -4,6 +4,7 @@ import { Login } from '../shared/entities/login';
 import { Token } from '../shared/entities/token';
 import { Router } from '@angular/router';
 import { CurrentUserService } from '../core/current-user.service';
+import { TimelineEvent } from '../shared/entities/timeline-event';
 
 @Component({
   selector: 'lol-login',
@@ -14,6 +15,8 @@ export class LoginComponent implements OnInit {
   username = '';
   password = '';
   errorMessage = '';
+
+  
 
   constructor(private readonly loginService: LoginService,
     private readonly router: Router,

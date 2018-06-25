@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { GamesComponent } from './games/games.component';
 import { Routes, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { SharedModule } from '../../shared/shared.module';
+import { CoreModule } from '../../core/core.module';
 
 const routes: Routes = [
   { path: '', component: GamesComponent }
@@ -12,7 +14,9 @@ const routes: Routes = [
   imports: [
     CommonModule,
     FormsModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    SharedModule,
+    CoreModule
   ],
   declarations: [GamesComponent]
 })
