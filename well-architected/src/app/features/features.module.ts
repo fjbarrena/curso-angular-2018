@@ -14,10 +14,10 @@ const routes: Routes = [
   { path: '',
     component: PrivateComponent,
     children: [
-      { path: 'champions', loadChildren: './features/champions/champions.module#ChampionsModule'},
-      { path: 'games', loadChildren: './features/games/games.module#GamesModule'},
-      { path: 'stats', loadChildren: './features/stats/stats.module#StatsModule'},
-      { path: 'dashboard', loadChildren: './features/dashboard/dashboard.module#DashboardModule'}
+      { path: 'champions', loadChildren: './champions/champions.module#ChampionsModule'},
+      { path: 'games', loadChildren: './games/games.module#GamesModule'},
+      { path: 'stats', loadChildren: './stats/stats.module#StatsModule'},
+      { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule'}
     ]
   }
 ];
