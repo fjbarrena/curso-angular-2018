@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Tournament } from '../../../shared/entities/tournament';
 import { Dialog } from 'primeng/dialog';
+import { DateUtils } from '../../../shared/util/DateUtils';
 
 @Component({
   selector: 'lol-stats',
@@ -11,6 +12,16 @@ export class StatsComponent implements OnInit {
   private tournaments: Tournament[] = [];
 
   private newTournament: Tournament = new Tournament();
+
+  private _title: String = '';
+
+  set title(obj: String) {
+    this._title = obj;
+
+    console.log(this._title);
+  }
+
+  private validationFormError: String = '';
 
   display: boolean = false;
 
@@ -28,6 +39,16 @@ export class StatsComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  public submit() {
+    if (this.newTournament.isValid()) {
+      this.validationFormError = '';
+
+      // Procesar y hacer un post!
+    } else {
+      this.validationFormError = 'Error de validación en el formulario';
+    }
   }
 
   public showModal() {

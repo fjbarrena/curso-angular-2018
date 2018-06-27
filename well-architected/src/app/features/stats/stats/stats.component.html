@@ -32,19 +32,23 @@
 <p-dialog header="New Tournament" [(visible)]="display" [modal]="true" [responsive]="true" [width]="600" [height]="600" [minWidth]="600" [minY]="400" 
         [maximizable]="true" [baseZIndex]="10000">
     
+        <div class="error" *ngIf="validationFormError">
+            {{validationFormError}}
+        </div>
+
         <div class="row">
             <div class="col-md-2">
                 Name
             </div>
             <div class="col-md-10">
-                <input type="text" required="true" maxlength="99" [(ngModel)]="newTournament.title">
+                <input type="text" required="true" maxlength="99" [(ngModel)]="title">
             </div>
 
             <div class="col-md-2">
                 Start Date
             </div>
             <div class="col-md-10">
-                    <p-calendar [(ngModel)]="newTournament.startDate"></p-calendar>
+                <p-calendar [(ngModel)]="newTournament.startDate"></p-calendar>
             </div>
 
             <div class="col-md-2">
@@ -53,12 +57,10 @@
             <div class="col-md-10">
                 <p-calendar [(ngModel)]="newTournament.endDate"></p-calendar>
             </div>
-
-
         </div>
 
         <p-footer>
-            <button type="button" pButton icon="pi pi-check" (click)="display=false" label="Yes"></button>
-            <button type="button" pButton icon="pi pi-close" (click)="display=false" label="No"></button>
+            <button type="button" pButton icon="pi pi-check" (click)="submit()" label="Yes"></button>
+            <button type="button" pButton icon="pi pi-close" (click)="display = false" label="No"></button>
         </p-footer>
 </p-dialog>
