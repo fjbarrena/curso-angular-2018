@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { TimelineEvent } from '../entities/timeline-event';
 import { DateUtils } from '../util/DateUtils';
 
@@ -11,12 +11,21 @@ export class TimelineComponent implements OnInit {
   private _startDate: Date;
   private _endDate: Date;
   private _events: TimelineEvent[] = [];
+  private _eventTitle: String = '';
+  private _summoners: String[] = [];
 
   private _percentWidth: number;
+
+  @Output()
+  public summonerClicker: EventEmitter<any> = new EventEmitter<any>();
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public invocadorClickado() {
+    this.summonerClicker.emit('Se ha clickado un invocador');
   }
 
   private loadData() {
@@ -96,9 +105,7 @@ export class TimelineComponent implements OnInit {
             this._startDate = new Date(sDate);
         }
 
-        if (this._startDate && this._endDate && this._events) {
-            this.loadData();
-        }
+        this.loadDataIfReady();
     }
 
     @Input()
@@ -107,9 +114,7 @@ export class TimelineComponent implements OnInit {
             this._endDate = new Date(eDate);
         }
 
-        if(this._startDate && this._endDate && this._events) {
-            this.loadData();
-        }
+        this.loadDataIfReady();
     }
 
     @Input()
@@ -118,9 +123,34 @@ export class TimelineComponent implements OnInit {
             this._events = myEvents;
         }
 
-        if(this._startDate && this._endDate && this._events) {
-            this.loadData();
-        }
+        this.loadDataIfReady();
+    }
+
+    @Input()
+    set eventTitle(title: String) {
+      if (title) {
+        this._eventTitle = title;
+      }
+
+      this.loadDataIfReady();
+    }
+
+    @Input()
+    set summoners(invocadores: String[]) {
+      if (invocadores) {
+        this._summoners = invocadores;
+      }
+
+      this.loadDataIfReady();
+    }
+
+    private loadDataIfReady() {
+      if (this._startDate && this._endDate && this._events
+         && this._eventTitle && this._summoners) {
+          this.loadData();
+      } else {
+        // do nothing
+      }
     }
 
 }

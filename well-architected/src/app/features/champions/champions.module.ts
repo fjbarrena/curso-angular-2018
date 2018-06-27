@@ -5,6 +5,7 @@ import { ChampionDetailComponent } from './champion-detail/champion-detail.compo
 import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from '../../shared/shared.module';
 import { CoreModule } from '../../core/core.module';
+import { FeaturesModule } from '../features.module';
 
 const routes: Routes = [
   { path: '', component: ChampionsComponent},
@@ -16,16 +17,12 @@ const routes: Routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
-    SharedModule,
-    CoreModule
+    FeaturesModule
   ],
   declarations: [
     ChampionsComponent,
     ChampionDetailComponent
   ],
-  exports: [
-    ChampionsComponent,
-    ChampionDetailComponent
-  ]
+  exports: [ ]
 })
 export class ChampionsModule { }

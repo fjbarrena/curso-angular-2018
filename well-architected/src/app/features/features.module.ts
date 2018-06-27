@@ -1,9 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ChampionsModule } from './champions/champions.module';
-import { DashboardModule } from './dashboard/dashboard.module';
-import { GamesModule } from './games/games.module';
-import { StatsModule } from './stats/stats.module';
 import { CoreModule } from '../core/core.module';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule, Routes } from '@angular/router';
@@ -11,7 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { PrivateComponent } from './private/private.component';
 
 const routes: Routes = [
-  { path: '',
+  { path: 'private',
     component: PrivateComponent,
     children: [
       { path: 'champions', loadChildren: './champions/champions.module#ChampionsModule'},
@@ -37,9 +33,11 @@ const routes: Routes = [
     // GamesModule,
     // StatsModule,
     RouterModule.forChild(routes),
-    FormsModule
+    FormsModule,
+    CoreModule,
+    SharedModule
   ],
   declarations: [PrivateComponent],
-  exports: []
+  exports: [CoreModule, SharedModule]
 })
 export class FeaturesModule { }

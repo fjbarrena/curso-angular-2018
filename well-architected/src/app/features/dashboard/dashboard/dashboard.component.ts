@@ -12,6 +12,8 @@ export class DashboardComponent implements OnInit {
   startDate = new Date(2018, 5, 22);
   endDate = new Date(2018, 5, 30);
   events = [];
+  eventTitle = 'Torneo del LoL';
+  summoners = ['kelear', 'evokante', 'vicmara'];
 
   constructor(private readonly championService: ChampionService) { 
     const tevent = new TimelineEvent();
@@ -42,7 +44,9 @@ export class DashboardComponent implements OnInit {
     this.events.push(tevent3);
   }
 
-
+  public eventReceived(str: any) {
+    console.log(str);
+  }
 
   ngOnInit() {
     this.championService.getAll().subscribe(

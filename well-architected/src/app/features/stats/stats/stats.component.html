@@ -1,3 +1,28 @@
-<p>
-  stats works!
-</p>
+<p-button (onClick)="showModal()" label="Add Tournament"></p-button>
+
+<p-table [value]="tournaments">
+  <ng-template pTemplate="header">
+      <tr>
+          <th>Title</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Num. of events</th>
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-tournament>
+      <tr>
+          <td>{{tournament.title}}</td>
+          <td>{{tournament.startDate | date:'fullDate' }}</td>
+          <td>{{tournament.endDate | date:'fullDate' }}</td>
+          <td>{{tournament.events.size}}</td>
+      </tr>
+  </ng-template>
+</p-table>
+
+<p-dialog #myDialog
+          header="New Tournament" 
+          visible="false" [modal]="true" 
+          [responsive]="true" [width]="350" [minWidth]="200" [minY]="70" 
+          [maximizable]="true" [baseZIndex]="10000">
+    Hola estoy dentro del modal
+</p-dialog>

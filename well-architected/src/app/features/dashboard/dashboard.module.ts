@@ -15,10 +15,9 @@ const routes: Routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
-    CoreModule,
-    SharedModule
+    FeaturesModule
   ],
   declarations: [DashboardComponent],
-  exports: [CoreModule, SharedModule]
+  exports: []
 })
 export class DashboardModule { }

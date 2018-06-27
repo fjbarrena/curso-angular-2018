@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { SharedModule } from '../../shared/shared.module';
 import { CoreModule } from '../../core/core.module';
+import { FeaturesModule } from '../features.module';
 
 const routes: Routes = [
   { path: '', component: GamesComponent }
@@ -15,8 +16,7 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     RouterModule.forChild(routes),
-    SharedModule,
-    CoreModule
+    FeaturesModule
   ],
   declarations: [GamesComponent]
 })

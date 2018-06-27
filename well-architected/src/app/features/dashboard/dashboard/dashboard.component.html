@@ -1,3 +1,5 @@
+
+
 <p>
   dashboard works!
 </p>
@@ -6,5 +8,8 @@
 
 <lol-timeline [startDate]="startDate" 
               [endDate]="endDate" 
-              [events]="events">
+              [events]="events"
+              [summoners]="summoners"
+              [eventTitle]="eventTitle" 
+              (summonerClicker)="eventReceived($event)">
 </lol-timeline>
