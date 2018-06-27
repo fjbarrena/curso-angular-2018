@@ -1,6 +1,6 @@
 <p-button (onClick)="showModal()" label="Add Tournament"></p-button>
 
-<p-table [value]="tournaments">
+<p-table [value]="tournaments" [paginator]="true" [rows]="50">
   <ng-template pTemplate="header">
       <tr>
           <th>Title</th>
@@ -11,7 +11,10 @@
   </ng-template>
   <ng-template pTemplate="body" let-tournament>
       <tr>
-          <td>{{tournament.title}}</td>
+          <td>
+              {{tournament.title}} 
+              <span *ngIf="!titleValidationSuccess">Formato no válido</span>
+            </td>
           <td>{{tournament.startDate | date:'fullDate' }}</td>
           <td>{{tournament.endDate | date:'fullDate' }}</td>
           <td>{{tournament.events.size}}</td>

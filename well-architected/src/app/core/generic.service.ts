@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
 
@@ -21,5 +21,13 @@ export class GenericService<T> {
 
   private composeUrl(): string {
     return this.composeBasicUrl(this.endpoint);
+  }
+
+  public buildAuthHeader(token: string): HttpHeaders {
+    let headers = new HttpHeaders();
+    headers = headers.set('Authorization',
+      'Bearer ' + token );
+
+      return headers;
   }
 }
