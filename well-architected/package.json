@@ -22,6 +22,8 @@
     "@angular/router": "^6.0.6",
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
+    "ngx-modal-dialog": "^3.0.0",
+    "ngx-smart-modal": "^6.0.4",
     "primeicons": "^1.0.0-beta.9",
     "primeng": "^6.0.0",
     "rxjs": "^6.0.0",

@@ -5,6 +5,7 @@ import { SharedModule } from '../shared/shared.module';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { PrivateComponent } from './private/private.component';
+import { NgxSmartModalModule } from 'ngx-smart-modal';
 
 const routes: Routes = [
   { path: 'private',
@@ -35,7 +36,8 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     FormsModule,
     CoreModule,
-    SharedModule
+    SharedModule,
+    NgxSmartModalModule.forRoot()
   ],
   declarations: [PrivateComponent],
   exports: [CoreModule, SharedModule]

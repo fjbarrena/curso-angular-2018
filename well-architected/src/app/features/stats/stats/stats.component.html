@@ -19,10 +19,23 @@
   </ng-template>
 </p-table>
 
-<p-dialog #myDialog
-          header="New Tournament" 
-          visible="false" [modal]="true" 
-          [responsive]="true" [width]="350" [minWidth]="200" [minY]="70" 
-          [maximizable]="true" [baseZIndex]="10000">
-    Hola estoy dentro del modal
+<p-dialog 
+          header="New Tournament"
+          [modal]="true"
+            [closeOnEscape]="true"
+            [responsive]="true"
+            [closable]="true">
+    
+</p-dialog>
+
+
+<p-dialog header="New Tournament" [(visible)]="display" [modal]="true" [responsive]="true" [width]="350" [minWidth]="200" [minY]="70" 
+        [maximizable]="true" [baseZIndex]="10000">
+    
+        Hola estoy dentro del modal
+
+        <p-footer>
+            <button type="button" pButton icon="pi pi-check" (click)="display=false" label="Yes"></button>
+            <button type="button" pButton icon="pi pi-close" (click)="display=false" label="No"></button>
+        </p-footer>
 </p-dialog>

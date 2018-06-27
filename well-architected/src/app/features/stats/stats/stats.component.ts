@@ -10,6 +10,8 @@ import { Dialog } from 'primeng/dialog';
 export class StatsComponent implements OnInit {
   private tournaments: Tournament[] = [];
 
+  display: boolean = false;
+
   @ViewChild('myDialog')
   private miModal: Dialog;
 
@@ -27,6 +29,7 @@ export class StatsComponent implements OnInit {
   }
 
   public showModal() {
-    this.miModal.visible = true;
+    this.display = true;
   }
+
 }
