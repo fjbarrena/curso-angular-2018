@@ -40,6 +40,6 @@ const routes: Routes = [
     NgxSmartModalModule.forRoot()
   ],
   declarations: [PrivateComponent],
-  exports: [CoreModule, SharedModule]
+  exports: [CoreModule, SharedModule, FormsModule]
 })
 export class FeaturesModule { }

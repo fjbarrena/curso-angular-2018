@@ -8,6 +8,7 @@ import {TableModule} from 'primeng/table';
 import {ButtonModule} from 'primeng/button';
 import {DialogModule} from 'primeng/dialog';
 import { FeaturesModule } from '../features.module';
+import {CalendarModule} from 'primeng/calendar';
 
 const routes: Routes = [
   { path: '', component: StatsComponent }
@@ -20,7 +21,8 @@ const routes: Routes = [
     TableModule,
     ButtonModule,
     DialogModule,
-    FeaturesModule
+    FeaturesModule,
+    CalendarModule
   ],
   declarations: [StatsComponent]
 })

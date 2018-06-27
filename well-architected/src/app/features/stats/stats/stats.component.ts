@@ -10,6 +10,8 @@ import { Dialog } from 'primeng/dialog';
 export class StatsComponent implements OnInit {
   private tournaments: Tournament[] = [];
 
+  private newTournament: Tournament = new Tournament();
+
   display: boolean = false;
 
   @ViewChild('myDialog')
