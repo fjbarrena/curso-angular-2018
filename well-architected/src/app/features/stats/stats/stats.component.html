@@ -1,69 +1,117 @@
-<p-button (onClick)="showModal()" label="Add Tournament"></p-button>
+<div id="tournamentsPanel" *ngIf="!showWorkArea">
+    <p-button (onClick)="showModal()" label="Add Tournament"></p-button>
 
-<p-table [value]="tournaments" [paginator]="true" [rows]="50">
-  <ng-template pTemplate="header">
-      <tr>
-          <th>Title</th>
-          <th>Start Date</th>
-          <th>End Date</th>
-          <th>Num. of events</th>
-      </tr>
-  </ng-template>
-  <ng-template pTemplate="body" let-tournament>
-      <tr>
-          <td>
-              {{tournament.title}} 
-              <span *ngIf="!titleValidationSuccess">Formato no válido</span>
-            </td>
-          <td>{{tournament.startDate | date:'fullDate' }}</td>
-          <td>{{tournament.endDate | date:'fullDate' }}</td>
-          <td>{{tournament.events.size}}</td>
-      </tr>
-  </ng-template>
-</p-table>
-
-<p-dialog 
-          header="New Tournament"
-          [modal]="true"
-            [closeOnEscape]="true"
-            [responsive]="true"
-            [closable]="true">
+    <p-table [value]="tournaments" [paginator]="true" [rows]="50">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>Title</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Num. of events</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-tournament>
+            <tr>
+                <td>
+                    {{tournament.title}} 
+                    <span *ngIf="!titleValidationSuccess">Formato no válido</span>
+                </td>
+                <td>{{tournament.startDate | date:'fullDate' }}</td>
+                <td>{{tournament.endDate | date:'fullDate' }}</td>
+                <td>
+                    <button type="button" (click)="openWorkArea(tournament)">Go to Work Area</button>
+                </td>
+            </tr>
+        </ng-template>
+    </p-table>
     
-</p-dialog>
-
-
-<p-dialog header="New Tournament" [(visible)]="display" [modal]="true" [responsive]="true" [width]="600" [height]="600" [minWidth]="600" [minY]="400" 
-        [maximizable]="true" [baseZIndex]="10000">
+    <p-dialog 
+                header="New Tournament"
+                [modal]="true"
+                [closeOnEscape]="true"
+                [responsive]="true"
+                [closable]="true">
+        
+    </p-dialog>
     
-        <div class="error" *ngIf="validationFormError">
-            {{validationFormError}}
+    
+    <p-dialog header="New Tournament" [(visible)]="display" [modal]="true" [responsive]="true" [width]="600" [height]="600" [minWidth]="600" [minY]="400" 
+            [maximizable]="true" [baseZIndex]="10000">
+        
+            <div class="error" *ngIf="validationFormError">
+                {{validationFormError}}
+            </div>
+    
+            <div class="row">
+                <div class="col-md-2">
+                    Name
+                </div>
+                <div class="col-md-10">
+                    <input type="text" required="true" maxlength="99" [(ngModel)]="title">
+                </div>
+    
+                <div class="col-md-2">
+                    Start Date
+                </div>
+                <div class="col-md-10">
+                    <p-calendar [(ngModel)]="newTournament.startDate"></p-calendar>
+                </div>
+    
+                <div class="col-md-2">
+                    End Date
+                </div>
+                <div class="col-md-10">
+                    <p-calendar [(ngModel)]="newTournament.endDate"></p-calendar>
+                </div>
+            </div>
+    
+            <p-footer>
+                <button type="button" pButton icon="pi pi-check" (click)="submit()" label="Yes"></button>
+                <button type="button" pButton icon="pi pi-close" (click)="display = false" label="No"></button>
+            </p-footer>
+    </p-dialog>
+</div>
+
+<div id="workAreaPanel" *ngIf="showWorkArea"
+     style="padding: 40px">
+    
+    <div class="row">
+        <lol-timeline 
+            [startDate]="selectedTournament.startDate" 
+            [endDate]="selectedTournament.endDate" 
+            [(events)]="selectedTournament.events"
+            [summoners]="[]"
+            [(counter)]="counter"
+            [eventTitle]="selectedTournament.title">
+        </lol-timeline>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <input type="text" required="true" maxlength="99" 
+                [(ngModel)]="newTimelineEvent.title"
+                placeholder="Title">
         </div>
 
-        <div class="row">
-            <div class="col-md-2">
-                Name
-            </div>
-            <div class="col-md-10">
-                <input type="text" required="true" maxlength="99" [(ngModel)]="title">
+
+        <div class="col-md-12">
+                <input type="text" required="true" maxlength="99" 
+                    [(ngModel)]="newTimelineEvent.description"
+                    placeholder="description">
             </div>
 
-            <div class="col-md-2">
-                Start Date
-            </div>
-            <div class="col-md-10">
-                <p-calendar [(ngModel)]="newTournament.startDate"></p-calendar>
-            </div>
 
-            <div class="col-md-2">
-                End Date
-            </div>
-            <div class="col-md-10">
-                <p-calendar [(ngModel)]="newTournament.endDate"></p-calendar>
-            </div>
+        <div class="col-md-12">
+            <p-calendar [(ngModel)]="newTimelineEvent.eventDate"></p-calendar>
         </div>
 
-        <p-footer>
-            <button type="button" pButton icon="pi pi-check" (click)="submit()" label="Yes"></button>
-            <button type="button" pButton icon="pi pi-close" (click)="display = false" label="No"></button>
-        </p-footer>
-</p-dialog>
+        <div class="col-md-12">
+            <button type="button" pButton icon="pi pi-check" (click)="saveEvent()" label="Add event"></button>
+        </div>
+    </div>
+
+    <div class="row" style="float: right">
+        <button type="button" (click)="closeWorkArea()">Go back</button>
+    </div>
+</div>

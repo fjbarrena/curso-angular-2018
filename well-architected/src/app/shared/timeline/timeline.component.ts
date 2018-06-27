@@ -14,10 +14,26 @@ export class TimelineComponent implements OnInit {
   private _eventTitle: String = '';
   private _summoners: String[] = [];
 
+  counterValue = 0;
+
   private _percentWidth: number;
 
   @Output()
   public summonerClicker: EventEmitter<any> = new EventEmitter<any>();
+
+  @Output() eventsChange = new EventEmitter();
+
+  @Output() counterChange = new EventEmitter();
+
+  @Input()
+  get counter() {
+    return this.counterValue;
+  }
+
+  set counter(val) {
+    this.counterValue = val;
+    this.counterChange.emit(this.counterValue);
+  }
 
   constructor() { }
 
@@ -118,9 +134,15 @@ export class TimelineComponent implements OnInit {
     }
 
     @Input()
-    set events(myEvents: TimelineEvent[]) {
-        if(myEvents) {
-            this._events = myEvents;
+    get events() {
+        return this._events;
+    }
+
+    set events(val) {
+        debugger;
+        if (val) {
+            this._events = val;
+            this.eventsChange.emit(this._events);
         }
 
         this.loadDataIfReady();

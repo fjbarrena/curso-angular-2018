@@ -14,7 +14,7 @@ export class TimelineEvent implements TimelineEventInterface{
     styleClass: string;
 
     constructor(object?: TimelineEvent){
-        if(object){
+        if (object) {
             this.title = object.title;
             this.description = object. description;
             this.eventDate = object.eventDate;

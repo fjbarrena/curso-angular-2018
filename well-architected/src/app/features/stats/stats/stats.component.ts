@@ -3,6 +3,7 @@ import { Tournament } from '../../../shared/entities/tournament';
 import { Dialog } from 'primeng/dialog';
 import { DateUtils } from '../../../shared/util/DateUtils';
 import { TournamentService } from '../../../core/tournament.service';
+import { TimelineEvent } from '../../../shared/entities/timeline-event';
 
 @Component({
   selector: 'lol-stats',
@@ -11,14 +12,18 @@ import { TournamentService } from '../../../core/tournament.service';
 })
 export class StatsComponent implements OnInit {
   private tournaments: Tournament[] = [];
-
+counter = 0;
   private newTournament: Tournament = new Tournament();
+  private selectedTournament: Tournament;
+
+  private newTimelineEvent: TimelineEvent = new TimelineEvent();
 
   private _title: String = '';
   private _startDate: Date;
   private _endDate: Date;
 
   private titleValidationSuccess = true;
+  private showWorkArea = false;
 
   set title(obj: string) {
     this._title = obj;
@@ -60,12 +65,30 @@ export class StatsComponent implements OnInit {
     this.loadData();
   }
 
+  public openWorkArea(selectedTournament: Tournament) {
+    console.log('Selected tournament: ' + selectedTournament);
+    this.selectedTournament = selectedTournament;
+    this.showWorkArea = true;
+  }
+
+  public closeWorkArea() {
+    this.selectedTournament = null;
+    this.showWorkArea = false;
+  }
+
   public loadData() {
     this.tournamentService.getSecuredTournaments().subscribe(
       (result: Tournament[]) => {
         this.tournaments = result;
       }
     );
+  }
+
+  public saveEvent() {
+    this.newTimelineEvent.eventType = 1;
+    this.newTimelineEvent.styleClass = '';
+    this.counter = this.counter + 1;
+    this.selectedTournament.events.push(this.newTimelineEvent);
   }
 
   public submit() {

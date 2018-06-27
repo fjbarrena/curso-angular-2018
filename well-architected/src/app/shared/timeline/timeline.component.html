@@ -1,7 +1,7 @@
-<h1>{{ _eventTitle }}</h1>
+<h1>{{ _eventTitle }} {{ counter }}</h1>
 
 <div class="iti-horizontal-timeline" style="overflow: hidden; padding-bottom: 35px">
-  <div *ngFor="let myEvent of _events" [style.width]="_percentWidth+'%'" [className]="myEvent.styleClass">
+  <div *ngFor="let myEvent of events" [style.width]="_percentWidth+'%'" [className]="myEvent.styleClass">
       <div class="iti-timeline-event haveEvent" *ngIf="myEvent.eventType !== 0"></div>
       <div class="iti-timeline-event" *ngIf="myEvent.eventType === 0"></div>
 
