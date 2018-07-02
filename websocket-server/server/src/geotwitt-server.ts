@@ -54,27 +54,31 @@ export class GeoTwittServer {
     }
 
     private emitTwittIn(millis: number) {
-        this.io.emit('geo-twitt', 
-            GeoTwitt.create(
-                '@DogDeveloper', 
-                this.generateRandomLatLong(),
-                this.generateRandomLatLong(),
-                'Hola caracola'
-            )
-        );
+        let emitter = this.io;
+        
+        setTimeout( () => {
+            emitter.emit('geo-twitt', 
+                GeoTwitt.create(
+                    '@DogDeveloper', 
+                    this.generateRandomLatLong(),
+                    this.generateRandomLatLong(),
+                    'Hola caracola'
+                )
+            );
+        },millis);
     }
 
     private generateRandomLatLong(): number {
-        return Math.random() * (90 - 0) + 90;
+        return Math.random() * (40 - 0) + 40;
     }
 
     private generateRandomTime(): number {
-        return Math.random() * (60000 - 2000) + 2000;
+        return Math.random() * (60000 - 30000) + 30000;
     }
 
     /* emite los mismos eventos siempre, es para jugar :D */
     private emitEvents() {
-        for(let i=0; i <= 10000; i++) {
+        for(let i=0; i <= 20; i++) {
             this.emitTwittIn(this.generateRandomTime());
         }
     }

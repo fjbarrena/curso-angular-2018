@@ -7,6 +7,7 @@ import { LoginService } from './login.service';
 import { CurrentUserService } from './current-user.service';
 import { TournamentService } from './tournament.service';
 import { LiveWebsocketService } from './live-websocket.service';
+import { GMapsSocketService } from './gmaps-socket.service';
 
 @NgModule({
   imports: [
@@ -18,7 +19,8 @@ import { LiveWebsocketService } from './live-websocket.service';
     LoginService,
     CurrentUserService,
     TournamentService,
-    LiveWebsocketService
+    LiveWebsocketService,
+    GMapsSocketService
   ],
   exports: []
 })

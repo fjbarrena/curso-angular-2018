@@ -39,17 +39,21 @@ var GeoTwittServer = /** @class */ (function () {
         });
     };
     GeoTwittServer.prototype.emitTwittIn = function (millis) {
-        this.io.emit('geo-twitt', model_1.GeoTwitt.create('@DogDeveloper', this.generateRandomLatLong(), this.generateRandomLatLong(), 'Hola caracola'));
+        var _this = this;
+        var emitter = this.io;
+        setTimeout(function () {
+            emitter.emit('geo-twitt', model_1.GeoTwitt.create('@DogDeveloper', _this.generateRandomLatLong(), _this.generateRandomLatLong(), 'Hola caracola'));
+        }, millis);
     };
     GeoTwittServer.prototype.generateRandomLatLong = function () {
-        return Math.random() * (90 - 0) + 90;
+        return Math.random() * (40 - 0) + 40;
     };
     GeoTwittServer.prototype.generateRandomTime = function () {
-        return Math.random() * (60000 - 2000) + 2000;
+        return Math.random() * (60000 - 30000) + 30000;
     };
     /* emite los mismos eventos siempre, es para jugar :D */
     GeoTwittServer.prototype.emitEvents = function () {
-        for (var i = 0; i <= 10000; i++) {
+        for (var i = 0; i <= 20; i++) {
             this.emitTwittIn(this.generateRandomTime());
         }
     };
