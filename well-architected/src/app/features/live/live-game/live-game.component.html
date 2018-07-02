@@ -1,3 +1,33 @@
-<p>
-  live-game works!
-</p>
+<div class="row">
+  <div class="col-md-6">
+    <h2>{{g2Kills}}</h2>
+  </div>
+  <div class="col-md-6">
+      <h2>{{origenKills}}</h2>
+    </div>
+</div>
+
+<div class="row">
+  <div id="g2Events" class="col-md-5">
+    <div class="row event-row">
+      <div class="event" *ngFor="let g2 of g2Event">
+        <div class="mt-element-ribbon bg-grey-steel">
+          <div class="ribbon ribbon-color-danger uppercase ">{{g2.name}}</div>
+          <p class="ribbon-content">{{ g2.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div id="origenEvents" class="col-md-5">
+    <div class="row event-row">
+      <div class="event" *ngFor="let origen of origenEvents">
+        <div class="mt-element-ribbon bg-grey-steel">
+          <div class="ribbon ribbon-color-info uppercase">{{origen.name}}</div>
+          <p class="ribbon-content">{{origen.description}}</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</div>

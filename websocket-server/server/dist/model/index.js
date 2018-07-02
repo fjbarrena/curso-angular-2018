@@ -8,3 +8,5 @@ var user_1 = require("./user");
 exports.User = user_1.User;
 var game_event_1 = require("./game-event");
 exports.GameEvent = game_event_1.GameEvent;
+var geotwitt_1 = require("./geotwitt");
+exports.GeoTwitt = geotwitt_1.GeoTwitt;
