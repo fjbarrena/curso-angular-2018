@@ -31,13 +31,16 @@ export class LiveGameComponent implements OnInit, OnDestroy {
               private readonly gmaps: GMapsSocketService) { }
 
   ngOnInit() {
-    this.gmaps.onTwitt().subscribe(
+    this.gmaps.startReceivingData();
+
+    this.gmaps.gmaps$.subscribe(
       (x: GeoTwitt) => {
         console.log(x);
         this.overlays.push(
           new google.maps.Marker(
             {
-              position: {lat: x.lat, lng: x.long}, title: x.account}
+              position: {lat: x.lat, lng: x.long},
+              title: x.account}
           )
         );
       }

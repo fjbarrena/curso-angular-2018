@@ -53,7 +53,7 @@ var GeoTwittServer = /** @class */ (function () {
     };
     /* emite los mismos eventos siempre, es para jugar :D */
     GeoTwittServer.prototype.emitEvents = function () {
-        for (var i = 0; i <= 20; i++) {
+        for (var i = 0; i <= 3000; i++) {
             this.emitTwittIn(this.generateRandomTime());
         }
     };

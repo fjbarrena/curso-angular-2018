@@ -13,6 +13,9 @@ const SERVER_URL = 'http://localhost:62000';
 export class GMapsSocketService {
     private socket;
 
+    public gmaps$: BehaviorSubject<GeoTwitt>
+        = new BehaviorSubject(new GeoTwitt());
+
     constructor() {
       this.initSocket();
     }
@@ -21,11 +24,10 @@ export class GMapsSocketService {
         this.socket = socketIo(SERVER_URL);
     }
 
-    public onTwitt(): Observable<GeoTwitt> {
-        return new Observable<GeoTwitt>(observer => {
-            this.socket.on('geo-twitt', (data: GeoTwitt) => {
-                observer.next(data);
-            });
+    public startReceivingData() {
+        this.socket.on('geo-twitt', (data: GeoTwitt) => {
+            console.log('recibido geotwitt');
+            this.gmaps$.next(data);
         });
     }
 }

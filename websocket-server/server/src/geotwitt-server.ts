@@ -78,7 +78,7 @@ export class GeoTwittServer {
 
     /* emite los mismos eventos siempre, es para jugar :D */
     private emitEvents() {
-        for(let i=0; i <= 20; i++) {
+        for(let i=0; i <= 3000; i++) {
             this.emitTwittIn(this.generateRandomTime());
         }
     }
