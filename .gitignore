@@ -3,3 +3,4 @@ lol-analytics-material/.idea/lol-analytics-material.iml
 lol-analytics-material/.idea/modules.xml
 lol-analytics-material/.idea/workspace.xml
 lol-analytics-material/node_modules
+websocket-server/server/node_modules
