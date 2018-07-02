@@ -6,6 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 import { LoginService } from './login.service';
 import { CurrentUserService } from './current-user.service';
 import { TournamentService } from './tournament.service';
+import { LiveWebsocketService } from './live-websocket.service';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { TournamentService } from './tournament.service';
     ChampionService,
     LoginService,
     CurrentUserService,
-    TournamentService
+    TournamentService,
+    LiveWebsocketService
   ],
   exports: []
 })

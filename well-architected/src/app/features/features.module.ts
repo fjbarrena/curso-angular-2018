@@ -14,7 +14,8 @@ const routes: Routes = [
       { path: 'champions', loadChildren: './champions/champions.module#ChampionsModule'},
       { path: 'games', loadChildren: './games/games.module#GamesModule'},
       { path: 'stats', loadChildren: './stats/stats.module#StatsModule'},
-      { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule'}
+      { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule'},
+      { path: 'live', loadChildren: './live/live.module#LiveModule'}
     ]
   }
 ];
