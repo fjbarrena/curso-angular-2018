@@ -88,7 +88,11 @@ counter = 0;
     this.newTimelineEvent.eventType = 1;
     this.newTimelineEvent.styleClass = '';
     this.counter = this.counter + 1;
-    this.selectedTournament.events.push(this.newTimelineEvent);
+
+    let newEv = this.selectedTournament.events;
+    newEv.push(this.newTimelineEvent);
+
+    this.selectedTournament.events = [].concat(newEv);
   }
 
   public submit() {

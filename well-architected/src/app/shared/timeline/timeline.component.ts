@@ -139,7 +139,6 @@ export class TimelineComponent implements OnInit {
     }
 
     set events(val) {
-        debugger;
         if (val) {
             this._events = val;
             this.eventsChange.emit(this._events);
