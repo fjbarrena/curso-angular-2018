@@ -1,0 +1,11 @@
+<div class="right" *ngIf="logins">
+  <h3>Logins realizados</h3>
+  <ul>
+    <li *ngFor="let log of logins | async">
+      {{ log.email }} <br />
+      {{ log.password }} <br />
+      {{ log.remember }}
+    </li>
+  </ul>
+
+</div>
