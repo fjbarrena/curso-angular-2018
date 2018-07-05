@@ -10,6 +10,9 @@ import { TimelineComponent } from './timeline/timeline.component';
   imports: [
     BrowserModule
   ],
+  entryComponents: [
+    TimelineComponent
+  ],
   providers: []
 })
 export class AppModule {
